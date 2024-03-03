@@ -9,6 +9,10 @@
     <description>Project For ImoocAd SpringCloud</description>
     <modules>
         <module>ad-eureka</module>
+        <module>ad-gateway</module>
+        <module>imooc-ad-service</module>
+        <module>imooc-ad-service/ad-common</module>
+        <module>imooc-ad-service/ad-sponsor</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
