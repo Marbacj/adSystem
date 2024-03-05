@@ -10,6 +10,7 @@
     <modules>
         <module>ad-common</module>
         <module>ad-search</module>
+        <module>ad-dashboard</module>
     </modules>
     <packaging>pom</packaging>
 </project>

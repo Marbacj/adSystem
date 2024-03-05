@@ -1,10 +1,10 @@
 package com.imooc.ad.index.adunit;
 
 /**
- * Created by Qinyi.
+ * Created by Marbach
  */
 public class AdUnitConstants {
-
+//使用位或运算加快检索速度
     public static class POSITION_TYPE {
 
         public static final int KAIPING = 1;
