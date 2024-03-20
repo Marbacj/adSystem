@@ -7,7 +7,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 /**
- * Created by Qinyi.
+ * Created by Marbach
  */
 @Component
 @ConfigurationProperties(prefix = "adconf.mysql")

@@ -28,7 +28,7 @@ public class BinlogClient {
     }
 
     public void connect() {
-
+    //Thread创建方式
         new Thread(() -> {
             client = new BinaryLogClient(
                     config.getHost(),

@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
- * Created by Qinyi.
+ * Created by Marbach
  */
 @Service
 public class CreativeServiceImpl implements ICreativeService {

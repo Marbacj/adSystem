@@ -4,7 +4,7 @@ import com.imooc.ad.entity.AdUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
- * Created by Qinyi.
+ * Created by Marbach
  */
 public interface AdUserRepository extends JpaRepository<AdUser, Long> {
 

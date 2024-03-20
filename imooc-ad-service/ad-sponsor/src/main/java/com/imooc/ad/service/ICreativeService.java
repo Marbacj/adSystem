@@ -4,7 +4,7 @@ import com.imooc.ad.vo.CreativeRequest;
 import com.imooc.ad.vo.CreativeResponse;
 
 /**
- * Created by Qinyi.
+ * Created by Marbach
  */
 public interface ICreativeService {
 
