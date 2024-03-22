@@ -31,10 +31,11 @@ import java.util.Set;
 
 /**
  * 1. 索引之间存在着层级的划分, 也就是依赖关系的划分
- * 2. 加载全量索引其实是增量索引 "添加" 的一种特殊实现
+ * 2. 加载全量索引其实是增量索引 "添加" 的 一种特殊实现
  * Created by Marbach
  *
  * 为什么要这样构建主键,你是怎样考虑的
+ * 实现导出索引时将k&v对应起来
  */
 @Slf4j
 public class AdLevelDataHandler {
