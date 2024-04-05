@@ -8,6 +8,7 @@ import java.util.Date;
 
 /**
  * Created by Marbach
+ * 创建vo对象的目的是使得数据可以在实体间进行
  */
 @Data
 @NoArgsConstructor

@@ -4,6 +4,7 @@ import com.github.shyiko.mysql.binlog.event.EventType;
 
 /**
  * Created by Marbach
+ * 枚举类型
  */
 public enum OpType {
 

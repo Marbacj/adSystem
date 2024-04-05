@@ -22,6 +22,8 @@ public class CommonUtils {
         return map.computeIfAbsent(key, k -> factory.get());
     }
 
+    //进行字符串拼接
+
     public static String stringConcat(String... args) {
 
         StringBuilder result = new StringBuilder();

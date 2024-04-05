@@ -9,7 +9,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * Created by Marbach
- * 不是所有的表需要建立索引,不是所有的属性都去建立所有
+ * 不是所有的表需要建立索引,不是所有的属性都去建立索引
  */
 @Slf4j
 @Component

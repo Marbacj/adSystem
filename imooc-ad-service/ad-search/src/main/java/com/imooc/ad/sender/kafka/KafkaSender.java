@@ -14,6 +14,8 @@ import java.util.Optional;
 
 /**
  * Created by Marbach
+ * 冒充slave
+ * 使用kafka作为producer,只需要向kafka写一份,只需要写一份,binlog只需要发送一次
  */
 @Component("kafkaSender")
 public class KafkaSender implements ISender {

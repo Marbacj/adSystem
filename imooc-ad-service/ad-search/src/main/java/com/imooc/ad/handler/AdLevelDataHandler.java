@@ -39,7 +39,8 @@ import java.util.Set;
  */
 @Slf4j
 public class AdLevelDataHandler {
-
+/**
+ * 不依赖于其他层级*/
     public static void handleLevel2(AdPlanTable planTable, OpType type) {
 
         AdPlanObject planObject = new AdPlanObject(
@@ -171,7 +172,9 @@ public class AdLevelDataHandler {
                 type
         );
     }
-
+    /**
+     * 兴趣维度
+     * 不支持更新*/
     public static void handleLevel4(AdUnitItTable unitItTable, OpType type) {
 
         if (type == OpType.UPDATE) {
