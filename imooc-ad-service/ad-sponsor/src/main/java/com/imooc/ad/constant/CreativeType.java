@@ -3,7 +3,7 @@ package com.imooc.ad.constant;
 import lombok.Getter;
 
 /**
- * Created by Qinyi.
+ * Created by Marbach
  */
 @Getter
 public enum CreativeType {

@@ -41,6 +41,12 @@ public class TemplateHolder {
         loadJson("template.json");
     }
 
+    //首先将json字段加载进来,将json转换为对象
+    /**
+     * loadJson() 方法用于加载 JSON 文件并解析为模板信息。在该方法中
+     *它首先通过类加载器获取 JSON 文件的输入流，然后使用 JSON.parseObject()
+     * 方法将输入流转换为 Template 对象，并调用 ParseTemplate.parse()
+     * 方法将其转换为 ParseTemplate 对象。*/
     public TableTemplate getTable(String tableName) {
         return template.getTableTemplateMap().get(tableName);
     }
@@ -63,7 +69,10 @@ public class TemplateHolder {
             throw new RuntimeException("fail to parse json file");
         }
     }
-
+    /**
+     *
+     *
+     * */
     private void loadMeta() {
 
         for (Map.Entry<String, TableTemplate> entry :

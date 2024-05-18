@@ -128,7 +128,7 @@ public class AggregationListener implements BinaryLogClient.EventListener {
     }
 
     private BinlogRowData buildRowData(EventData eventData) {
-
+        //通过tableTemplate得到表的信息
         TableTemplate table = templateHolder.getTable(tableName);
 
         if (null == table) {

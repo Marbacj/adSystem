@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 @Slf4j
 @Component
 public class BinlogRunner implements CommandLineRunner {
-
+//commandLineRunner 表示在应用程序启动时执行特定的操作
     private final BinlogClient client;
 
     @Autowired
